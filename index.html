@@ -6,84 +6,82 @@
     <title>WebStudio | Effective Solutions for Your Business</title>
 </head>
 <body>
-    <header style="text-align: center; padding: 20px; border-bottom: 1px solid;">
-        <nav style="margin-top: 10px;">
-            <!-- Logo -->
-            <a href="./index.html" id="logo" style="font-size: 24px; font-weight: bold; text-decoration: none;">WebStudio</a>
-            <!-- Menu -->
-            <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; margin-top: 10px;">
-                <li><a href="#" style="text-decoration: none;">Studio</a></li>
-                <li><a href="#" style="text-decoration: none;">Portfolio</a></li>
-                <li><a href="#" style="text-decoration: none;">Contacts</a></li>
-            </ul>
-        </nav>
+    <header style="padding: 20px; border-bottom: 1px solid;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <!-- Логотип и навигация слева -->
+            <div style="display: flex; align-items: center;">
+                <a href="./index.html" id="logo" style="font-size: 24px; font-weight: bold; text-decoration: none; text-transform: uppercase;">WebStudio</a>
+                <nav>
+                    <ul style="list-style: none; padding: 0; display: flex; gap: 20px; margin-left: 20px;">
+                        <li><a href="#" style="text-decoration: none;">Studio</a></li>
+                        <li><a href="#" style="text-decoration: none;">Portfolio</a></li>
+                        <li><a href="#" style="text-decoration: none;">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-        <!-- Contact Information -->
-        <address style="margin-top: 20px; font-style: normal; text-align: center;">
-            <ul style="list-style: none; padding: 0; margin: 0;">
-                <!-- First Contact -->
-                <li style="margin-bottom: 10px;">
-                    <a href="mailto:info@devstudio.com" style="text-decoration: none;">
-                        info@devstudio.com
-                    </a>
-                </li>
-                <!-- Second Contact -->
-                <li>
-                    <a href="tel:+110001111111" style="text-decoration: none;">
-                        +11 (000) 111-11-11
-                    </a>
-                </li>
-            </ul>
-        </address>
+            <!-- Контакты справа -->
+            <div style="text-align: right;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 10px;">
+                        <a href="mailto:info@devstudio.com" style="text-decoration: none;">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="tel:+110001111111" style="text-decoration: none;">
+                            +11 (000) 111-11-11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
+</body>
+</html>
 
     <main style="padding: 20px; max-width: 800px; margin: 0 auto;">
         <!-- Hero Section (Section #1) -->
         <section class="hero" style="text-align: center; margin-bottom: 40px;">
             <h1 style="font-size: 32px; margin-bottom: 20px;">Effective Solutions for Your Business</h1>
-            <p style="font-size: 18px; margin-bottom: 20px;">
-                At WebStudio, we specialize in delivering exceptional solutions tailored to your business needs.
-                Let us help you achieve success today!
-            </p>
-            <!-- Corrected Button Text -->
             <button type="button" style="padding: 10px 20px; font-size: 16px; border: none; cursor: pointer;">
                 Order Service
             </button>
         </section>
 
-        <!-- Features Section -->
-        <section class="features" style="text-align: center; margin-bottom: 40px;">
-            <h2 style="font-size: 28px; margin-bottom: 20px;">Our Features</h2>
-            <!-- Features in row -->
-            <div style="display: flex; justify-content: center; gap: 20px;">
-                <!-- First Feature -->
-                <div style="text-align: center; width: 220px;">
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
-                </div>
-                <!-- Second Feature -->
-                <div style="text-align: center; width: 220px;">
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-                </div>
-                <!-- Third Feature -->
-                <div style="text-align: center; width: 220px;">
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-                </div>
-                <!-- Fourth Feature -->
-                <div style="text-align: center; width: 220px;">
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-                </div>
-            </div>
-        </section>
+<!-- Features Section -->
+<section class="features" style="text-align: center; margin-bottom: 40px;">
+    <h2 style="font-size: 28px; margin-bottom: 20px;">Our Features</h2>
+    <!-- Features List -->
+    <ul style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px; flex-wrap: nowrap;">
+        <!-- First Feature -->
+        <li style="text-align: center; width: 220px;">
+            <h3>Strategy</h3>
+            <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+        </li>
+        <!-- Second Feature -->
+        <li style="text-align: center; width: 220px;">
+            <h3>Punctuality</h3>
+            <p>Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+        </li>
+        <!-- Third Feature -->
+        <li style="text-align: center; width: 220px;">
+            <h3>Diligence</h3>
+            <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
+        </li>
+        <!-- Fourth Feature -->
+        <li style="text-align: center; width: 220px;">
+            <h3>Technologies</h3>
+            <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+        </li>
+    </ul>
+</section>
+
 
         <!-- Team Section -->
         <section class="team" style="text-align: center; margin-bottom: 40px;">
             <h2 style="font-size: 28px; margin-bottom: 20px;">Our Team</h2>
-            <!-- Team members in row -->
-            <div style="display: flex; justify-content: center; gap: 20px;">
+            <div style="display: flex; justify-content: center; gap: 15px;">
                 <!-- First Team Member -->
                 <div style="text-align: center; width: 220px;">
                     <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264" height="220" style="object-fit: cover;">
@@ -112,15 +110,17 @@
         </section>
     </main>
 
-    <footer style="text-align: center; padding: 20px; border-top: 1px solid;">
-        <a href="./index.html" id="footer-logo" style="font-size: 18px; font-weight: bold; text-decoration: none;">WebStudio</a>
-        
-        <!-- Now this is the second element in footer -->
-        <p style="font-size: 14px; margin-top: 10px;">
-            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-        </p>
-        
-        <p style="font-size: 14px;">&copy; 2024 WebStudio. All rights reserved.</p>
+    <footer style="text-align: left; padding: 20px; border-top: 1px solid;">
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+            <a href="./index.html" id="footer-logo" style="font-size: 18px; font-weight: bold; text-decoration: none; text-transform: uppercase;">WebStudio</a>
+            <p style="font-size: 14px; margin-top: 10px; white-space: pre-line;">
+                Increase the flow of customers 
+                and sales for your business 
+                with digital marketing & 
+                growth solutions.
+            </p>
+
+        </div>
     </footer>
 </body>
 </html>
