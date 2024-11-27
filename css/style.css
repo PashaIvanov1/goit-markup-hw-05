@@ -7,13 +7,6 @@ body {
 header {
     background-color: white;
     color: white;
-    padding: 20px;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 header nav a {
@@ -25,8 +18,6 @@ header nav a {
 
 header nav ul {
     list-style: none;
-    display: flex;
-    padding: 0;
 }
 
 header nav ul li {
@@ -64,7 +55,6 @@ header address ul li {
     padding: 15px 30px;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 5px;
 }
 
 /* Features Section */
@@ -80,7 +70,6 @@ header address ul li {
 
 .features ul {
     list-style: none;
-    display: flex;
     justify-content: space-around;
     padding: 0;
 }
@@ -113,7 +102,6 @@ header address ul li {
 
 .team ul {
     list-style: none;
-    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0;
@@ -125,8 +113,6 @@ header address ul li {
 }
 
 .team img {
-    width: 264px;
-    height: 260px; 
     object-fit: cover; 
     margin-bottom: 10px;
 }
@@ -135,10 +121,6 @@ header address ul li {
 footer {
     background-color: #181818;
     color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 footer .web {
@@ -154,21 +136,13 @@ footer .studio {
 footer p {
     margin: 0;
 }
+
 .header-container {
-    display: flex;
     justify-content: space-between; 
-    align-items: center; 
     padding: 20px;
 }
 
 /* Логотип и навигация */
-header nav a {
-    color: black;
-    text-decoration: none;
-    font-size: 24px;
-    margin-right: 20px;
-}
-
 header nav a .web {
     color: #0073e6;  
 }
@@ -179,9 +153,6 @@ header nav a .studio {
 
 nav ul {
     list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -195,7 +166,6 @@ nav a {
 
 address ul {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
 }
@@ -227,9 +197,6 @@ address a {
 .projects-list {
     list-style: none;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
     justify-content: center;
 }
 
