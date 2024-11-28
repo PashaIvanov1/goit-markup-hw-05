@@ -1,9 +1,10 @@
 /* Global */
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: #2e2f42;
+    color:  #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
