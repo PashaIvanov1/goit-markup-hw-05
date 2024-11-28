@@ -241,16 +241,29 @@ footer p {
 
 /* Logo Styling */
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
 }
 
-.logo-span {
-    color: #2e2f42;
+.logo-web {
+    color: #4d5ae5;
+}
+
+.logo-studio {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--text-color, #f4f4fd);
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2e2f42;
 }
