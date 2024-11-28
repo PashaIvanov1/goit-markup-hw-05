@@ -92,27 +92,50 @@ a {
     padding: 50px 20px;
 }
 
-.features h2 {
+.features-title {
     font-size: 36px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #2e2f42;
     margin-bottom: 20px;
 }
 
-.features ul {
+.features-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.features li {
+.features-item {
     max-width: 200px;
+    margin-bottom: 20px;
 }
 
-.features li h3 {
-    font-size: 24px;
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     margin-bottom: 10px;
 }
 
-.features li p {
+.feature-description {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Hover and Focus States */
+.feature-title:hover,
+.feature-title:focus,
+.feature-description:hover,
+.feature-description:focus {
+    color: #404bbf;
 }
 
 /* Team Section */
