@@ -151,7 +151,7 @@ a {
 .feature-title:focus,
 .feature-description:hover,
 .feature-description:focus {
-    color: #404bbf;
+    background-color: #404BBF;
 }
 
 /* Team Section */
