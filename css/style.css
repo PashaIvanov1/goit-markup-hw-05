@@ -192,6 +192,9 @@ footer p {
     margin: 0;
 }
 
+.feature-title {
+    text-transform: capitalize;
+}
 /* Projects Section */
 .projects {
     padding: 50px 20px;
