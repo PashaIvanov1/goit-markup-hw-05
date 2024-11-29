@@ -34,10 +34,20 @@ a {
     padding: 0;
 }
 
-.contacts {
+.contact-address {
+    font-style: normal;
+}
+
+.contact-list {
     display: flex;
     gap: 15px;
-    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-item {
+    display: inline;
 }
 
 .contact-link {
