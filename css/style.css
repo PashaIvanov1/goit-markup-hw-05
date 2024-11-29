@@ -55,7 +55,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
 .contact-link:hover,
@@ -180,31 +179,7 @@ a {
 }
 
 /* Footer */
-footer {
-    background-color: #181818;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
-footer .web {
-    color: #0073e6;
-    font-weight: bold;
-}
-
-footer .studio {
-    font-weight: bold;
-}
-
-footer p {
-    margin: 0;
-}
-
-.feature-title {
-    text-transform: capitalize;
-}
 /* Projects Section */
 .projects {
     padding: 50px 20px;
