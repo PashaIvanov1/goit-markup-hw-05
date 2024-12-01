@@ -64,13 +64,12 @@ a {
     transition: color 0.3s ease;
 }
 
-/* Стили для первого пункта списка */
-.nav-link:first-of-type {
-    font-weight: 500; /* Жирность для первого пункта */
-    color: #2e2f42; /* Цвет текста */
+.nav-link:first-of-type:hover,
+.nav-link:first-of-type:focus {
+    color: #404bbf;
 }
 
-/* Hover и focus состояния */
+/* General hover and focus states */
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
@@ -86,12 +85,16 @@ a {
     margin: 0;
 }
 
-.address .item {
-    margin-bottom: 10px;
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 0.3s ease;
 }
 
-.address .item a:hover,
-.address .item a:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
