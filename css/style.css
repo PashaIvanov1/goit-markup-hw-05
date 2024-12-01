@@ -53,7 +53,7 @@ a {
 
 /* Active class styles for 'Studio' */
 .logo-studio-active {
-    color: #ff5722;
+    color: #2e2f42;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -77,8 +77,8 @@ a {
     color: #2e2f42;
 }
 
-.nav-link:first-of-type:hover,
-.nav-link:first-of-type:focus {
+.contact-link:first-of-type:hover,
+.contact-link:first-of-type:focus {
     color: #404bbf;
 }
 
