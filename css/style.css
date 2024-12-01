@@ -124,7 +124,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: #404BBF;
     border: none;
     color: #ffffff ;
     padding: 15px 30px;
@@ -134,7 +134,7 @@ a {
 }
 
 .hero-button:focus {
-    outline: 2px solid #404BBF;
+    outline: 2px solid #4D5AE5;
     outline-offset: 4px;
 }
 
