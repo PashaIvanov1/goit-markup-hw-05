@@ -36,7 +36,7 @@ a {
     color: #4d5ae5;
     text-decoration: none;
     margin-bottom: 10px;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .logo-part {
@@ -51,6 +51,13 @@ a {
     color: #f4f4fd;
 }
 
+/* Active class styles for 'Studio' */
+.logo-studio-active {
+    color: #ff5722;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .nav-list {
     display: flex;
     gap: 20px;
@@ -62,6 +69,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 0.3s ease;
+}
+
+/* First list item styles */
+.nav-link:first-of-type {
+    font-weight: 500;
+    color: #2e2f42;
 }
 
 .nav-link:first-of-type:hover,
