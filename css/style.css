@@ -59,6 +59,7 @@ a {
 
 .nav-link-active {
     font-weight: bold;
+    color: #404bbf;
     text-decoration: underline;
 }
 
