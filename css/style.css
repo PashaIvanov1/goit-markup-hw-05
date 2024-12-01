@@ -136,9 +136,14 @@ a {
     transition: background-color 0.3s ease;
 }
 
-.hero-button:hover, 
+.hero-button:hover {
+    background-color: #404BBF; 
+}
+
 .hero-button:focus {
     background-color: #404BBF;
+    outline: 2px solid #4D5AE5;
+    outline-offset: 4px;
 }
 
 /* Features Section */
