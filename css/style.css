@@ -181,32 +181,55 @@ a {
 
 /* Team Section */
 .team {
-    background-color: #f4f4fd;
+    background-color: #f4f4fd; /* фон для секции */
     padding: 50px 20px;
 }
 
-.team h2 {
-    font-size: 36px;
-    text-align: center;
+.team-title {
+    font-size: 36px; /* размер шрифта */
+    line-height: 1.11; /* пространство между строками */
+    text-align: center; /* выравнивание по центру */
+    letter-spacing: 0.02em; /* отступы между буквами */
+    text-transform: capitalize; /* преобразование в Capitalize */
+    color: #2e2f42; /* цвет текста */
     margin-bottom: 20px;
 }
 
-.team ul {
+.team-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.team li {
+.team-item {
     text-align: center;
+    background-color: #ffffff; /* фон для каждого пункта */
+    padding: 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 
-.team img {
+.team-img {
     width: 264px;
     height: 260px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+
+.team-member-name {
+    font-weight: 500; /* жирность шрифта */
+    font-size: 20px; /* размер шрифта */
+    line-height: 1.2; /* пространство между строками */
+    letter-spacing: 0.02em; /* отступы между буквами */
+    color: #2e2f42; /* цвет текста */
+    margin-bottom: 5px;
+}
+
+.team-member-role {
+    font-size: 16px; /* размер шрифта */
+    line-height: 1.5; /* пространство между строками */
+    letter-spacing: 0.02em; /* отступы между буквами */
+    color: #434455; /* цвет текста */
 }
 
 /* Footer */
