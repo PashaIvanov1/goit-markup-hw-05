@@ -34,9 +34,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block; 
 }
 
 .logo-part {
@@ -57,10 +54,11 @@ a {
 }
 
 .nav-link {
-    color: #434455;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
     transition: color 0.3s ease;
 }
 
@@ -73,7 +71,7 @@ a {
 /* Hover и focus состояния */
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+    color: #404bbf; /* Цвет при наведении и фокусе */
 }
 
 .address {
@@ -86,8 +84,17 @@ a {
     margin: 0;
 }
 
-.address .item {
-    margin-bottom: 10px;
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf; 
 }
 
 .address .item a:hover,
