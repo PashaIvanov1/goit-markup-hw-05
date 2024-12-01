@@ -57,18 +57,29 @@ a {
 }
 
 .nav-link {
-    color: #434455;
-    font-weight: 400;
+    color: #2e2f42;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     transition: color 0.3s ease;
 }
+/* First list item styles */
+.nav-link:first-of-type {
+    font-weight: 500;
+    color: #2e2f42;
 
+}
+
+.nav-link:first-of-type:hover,
+.nav-link:first-of-type:focus {
+    color: #404bbf;
+}
 .nav-link-active {
     font-weight: bold;
     color: #404bbf;
     text-decoration: underline;
 }
+
 
 /* General hover and focus states */
 .nav-link:hover,
