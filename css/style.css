@@ -52,8 +52,8 @@ a {
     transition: color 0.3s ease;
 }
 
-.nav-list li:first-child .nav-link:hover,
-.nav-list li:first-child .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
