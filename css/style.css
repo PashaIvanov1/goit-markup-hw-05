@@ -1,9 +1,9 @@
-/* Global */
+/* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color:  #434455;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -18,7 +18,7 @@ a {
     color: inherit;
 }
 
-/* Header */
+/* Header styles */
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -26,17 +26,42 @@ a {
     padding: 10px 20px;
 }
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-part {
+    color: #2e2f42; /* Исправлено, чтобы соответствовать описанию */
+}
+
 .nav-list {
     display: flex;
     gap: 20px;
-
 }
+
 .nav-link {
     color: #434455;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+/* Стили для первого пункта списка */
+.nav-link:first-of-type {
+    font-weight: 500; /* Жирность для первого пункта */
+    color: #2e2f42; /* Цвет текста */
+}
+
+/* Hover и focus состояния */
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -44,27 +69,20 @@ a {
     font-style: normal;
 }
 
-.list {
+.address .list {
     display: flex;
     gap: 15px;
-
-    margin: 0;
-    padding: 0;
 }
 
-.item {
-    display: inline;
-}
-
-.link {
+.address .item a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.hover,
-.focus {
+.address .item a:hover,
+.address .item a:focus {
     color: #404bbf;
 }
 
@@ -120,9 +138,6 @@ a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .features-item {
@@ -152,6 +167,7 @@ a {
 .feature-description:hover,
 .feature-description:focus {
     background-color: #404BBF;
+    color: #ffffff; /* Улучшение визуального восприятия */
 }
 
 /* Team Section */
@@ -185,6 +201,35 @@ a {
 }
 
 /* Footer */
+.footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    padding: 20px 0;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Services Section */
+.services {
+    background-color: #F4F4FD;
+    padding: 20px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.services-item {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
 
 /* Projects Section */
 .projects {
@@ -195,10 +240,10 @@ a {
 .projects .section-title {
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 30px;
 }
 
 .projects-list {
@@ -231,55 +276,4 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-/* Logo Styling */
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo-span {
-    color: #f4f4fd;
-}
-
-.logo-web {
-    color: #4d5ae5;
-}
-
-.logo-studio {
-    color: #f4f4fd;
-}
-
-.footer-text {
-    line-height: 1.5;
-    color: var(--text-color, #f4f4fd);
-    letter-spacing: 0.02em;
-}
-
-.footer {
-    background-color: #2e2f42;
-    padding: 20px 0;
-}
-.services-item {
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin-bottom: 15px;
-    border-radius: 8px; 
-}
-
-.services-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.services {
-    background-color: #F4F4FD;
-    padding: 20px; 
 }
