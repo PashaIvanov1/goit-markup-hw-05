@@ -77,8 +77,13 @@ a {
     color: #2e2f42;
 }
 
-.contact-link:first-of-type:hover,
-.contact-link:first-of-type:focus {
+.nav-list li:first-of-type .nav-link:hover,
+.nav-list li:first-of-type .nav-link:focus {
+    color: #404bbf;
+}
+
+.nav-link:first-of-type:hover,
+.nav-link:first-of-type:focus {
     color: #404bbf;
 }
 
