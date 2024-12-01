@@ -34,10 +34,21 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block; 
 }
 
 .logo-part {
-    color: #2e2f42; /* Исправлено, чтобы соответствовать описанию */
+    color: #2e2f42;
+}
+
+.logo-web {
+    color: #4d5ae5; 
+}
+
+.logo-studio {
+    color: #f4f4fd;
 }
 
 .nav-list {
@@ -165,7 +176,7 @@ a {
 .feature-description:hover,
 .feature-description:focus {
     background-color: #404BBF;
-    color: #ffffff; /* Улучшение визуального восприятия */
+    color: #ffffff;
 }
 
 /* Team Section */
@@ -203,11 +214,13 @@ a {
     background-color: #2e2f42;
     color: #f4f4fd;
     padding: 20px 0;
+    text-align: left;
 }
 
 .footer-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 
 /* Services Section */
