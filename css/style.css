@@ -70,15 +70,13 @@ a {
 }
 
 .address .list {
-    display: flex;
-    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.address .item a {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.address .item {
+    margin-bottom: 10px;
 }
 
 .address .item a:hover,
@@ -276,4 +274,17 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: #404bbf;
 }
