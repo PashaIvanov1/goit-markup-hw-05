@@ -54,6 +54,10 @@ header {
     padding: 0 15px;
 }
 
+.section header{
+    display: flex;
+}
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -100,7 +104,7 @@ header {
 }
 
 .list {
-    display: flex;
+
     gap: 40px;
 }
 
@@ -122,16 +126,18 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Центрируем содержимое по вертикали */
-    align-items: center; /* Центрируем содержимое по горизонтали */
-    padding: 188px 0; /* Убираем height и используем padding для отступов */
+    justify-content: center;
+    align-items: center; 
+    padding: 188px 0;
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 20px;
-    max-width: 496px; 
+    max-width: 496px;
+    text-align: center; 
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -144,9 +150,10 @@ header {
     border: none;
     border-radius: 4px; 
     cursor: pointer;
-    display: block; 
+
     min-width: 169px; 
     height: 56px; 
+    margin-top: 20px; 
 }
 
 .hero-button:hover,
