@@ -54,7 +54,7 @@ header {
 }
 
 .container {
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     width: 1158px;
@@ -338,7 +338,6 @@ header {
     margin-right: 0; 
 }
 
-
 .projects-item img {
     width: 100%;
     height: auto;
@@ -351,7 +350,6 @@ header {
     border-top: none;
 }
 
-
 .project-title {
     margin-bottom: 8px;
     font-size: 18px;
@@ -359,7 +357,6 @@ header {
     color: #333;
     text-align: center;
 }
-
 
 
 .project-description {
