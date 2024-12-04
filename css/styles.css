@@ -280,6 +280,11 @@ header {
     text-align: center;
 }
 
+.footer-logo {
+    display: inline-block; 
+    margin-bottom: 16px;
+}
+
 .footer-logo-studio {
     text-transform: lowercase;
 }
@@ -290,12 +295,10 @@ header {
     line-height: 1.5;
 }
 
-
-.footer-section .navigation {
-    display: inline-block;
-        margin-bottom: 16px;
-    
-
+.footer .container{
+    display: block;
+}
+ 
 /* Services Section */
 .services {
     background-color: #F4F4FD;
