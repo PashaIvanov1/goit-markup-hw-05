@@ -54,7 +54,7 @@ header {
 }
 
 .container {
-
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1158px;
@@ -293,6 +293,10 @@ header {
     max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.footer section .container{
+    display: block;
 }
 
 /* Services Section */
