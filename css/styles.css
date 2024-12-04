@@ -140,8 +140,7 @@ header {
 
 /* Features Section */
 .features {
-    padding: 120px 0;
-    text-align: center;
+    padding: 120px 0; 
 }
 
 .features-title {
@@ -149,23 +148,31 @@ header {
     font-weight: 700;
     margin-bottom: 40px;
     color: #2e2f42;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 .features-list {
     display: flex;
+    gap: 24px; 
     justify-content: space-between;
-    gap: 30px;
 }
 
 .features-item {
-    width: calc((100% - 90px) / 4);
+    width: calc((100% - 72px) / 4); 
     text-align: center;
 }
 
 .feature-title {
     font-weight: 500;
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 8px; 
     color: #2e2f42;
 }
 
