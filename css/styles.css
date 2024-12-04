@@ -49,13 +49,10 @@ header {
 }
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.section header{
-    display: flex;
 }
 
 .navigation {
@@ -104,7 +101,7 @@ header {
 }
 
 .list {
-
+    display: flex;
     gap: 40px;
 }
 
@@ -136,7 +133,7 @@ header {
     line-height: 1.07;
     margin-bottom: 20px;
     max-width: 496px;
-    text-align: center; 
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -150,10 +147,9 @@ header {
     border: none;
     border-radius: 4px; 
     cursor: pointer;
-
-    min-width: 169px; 
-    height: 56px; 
-    margin-top: 20px; 
+    min-width: 169px;
+    height: 56px;
+    margin-top: 20px;
 }
 
 .hero-button:hover,
