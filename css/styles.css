@@ -252,11 +252,21 @@ header {
 .footer {
     background-color: #2e2f42;
     color: #f4f4fd;
-    padding: 40px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
+.footer-logo {
+    display: inline-block; 
+    margin-bottom: 16px;
+}
+
+.footer-logo-studio {
+    text-transform: lowercase;
+}
+
 .footer-text {
+    max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
 }
