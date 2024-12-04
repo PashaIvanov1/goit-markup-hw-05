@@ -49,7 +49,6 @@ header {
 }
 
 .container {
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -117,9 +116,6 @@ header {
 }
 
 /* Hero Section */
-.container hero{
-    
-}
 .hero {
     background-color: #2E2F42;
     color: #ffffff;
@@ -229,6 +225,10 @@ header {
     margin-bottom: 72px; 
     text-align: center;
     color: #2e2f42;
+}
+
+.team section .container {
+    display: flex;
 }
 
 
