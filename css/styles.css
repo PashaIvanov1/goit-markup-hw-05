@@ -112,25 +112,29 @@ header {
     background-color: #2E2F42;
     color: #ffffff;
     text-align: center;
-    padding: 120px 0;
+    padding: 188px 0; /* изменено на 188px 0 */
 }
 
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 20px;
+    max-width: 496px; 
 }
 
 .hero-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    background-color: #4D5AE5;
+    background-color: var(--button-background, #4D5AE5);
     color: #ffffff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px; 
     cursor: pointer;
+    display: block; 
+    min-width: 169px; 
+    height: 56px; 
 }
 
 .hero-button:hover,
