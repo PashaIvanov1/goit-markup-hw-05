@@ -226,17 +226,16 @@ header {
     margin-bottom: 72px; 
     text-align: center;
     color: #2e2f42;
+    
 }
-
-.team section .container {
-    display: flex;
-}
-
 
 .team-list {
     display: flex;
     justify-content: space-between;
     gap: 24px; 
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 
@@ -310,20 +309,9 @@ header {
     display: block;
 }
  
-/* Services Section */
-.services {
-    background-color: #F4F4FD;
-}
-
-.services-item {
-    background-color: #FFFFFF;
-}
-
 .projects.section .container {
     flex-direction: column;
     align-items: center;
-    padding-top: 120px; 
-    padding-bottom: 120px
 }
 
 .section-title {
@@ -332,6 +320,9 @@ header {
     font-size: 32px;
     font-weight: bold;
     color: #333;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
 
 .projects-list {
