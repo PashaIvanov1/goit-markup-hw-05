@@ -318,6 +318,10 @@ header {
     padding-bottom: 120px;
 
 }
+.projects.section {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+}
 
 .projects-list {
     display: flex;
@@ -327,9 +331,6 @@ header {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-.projects.section .container{
-    display: block;
 }
 
 .projects-item {
