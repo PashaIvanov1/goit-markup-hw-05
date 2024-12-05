@@ -328,6 +328,9 @@ header {
     padding: 0;
     margin: 0;
 }
+.projects.section .container{
+    display: block;
+}
 
 .projects-item {
     width: calc((100% - 48px) / 3);
