@@ -27,7 +27,7 @@ h1, h2, h3, p, ul {
     margin: 0;
 }
 
-.container {
+.container {display: flex;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -42,17 +42,15 @@ h1, h2, h3, p, ul {
     text-align: center;
 }
 
-/* Header styles */
-
-header {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
+/* .container {
     display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+} Header styles */
+
+header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
