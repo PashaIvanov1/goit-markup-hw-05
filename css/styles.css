@@ -28,12 +28,15 @@ h1, h2, h3, p, ul {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.container header-container{
+    display: flex;
 }
 
 /* Section styling */
@@ -58,7 +61,7 @@ header {
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -81,6 +84,8 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
+    font-weight: 500;
 }
 
 .nav-link:hover,
@@ -88,21 +93,22 @@ header {
     color: #404bbf;
 }
 
-.address {
-    display: flex;
-    gap: 360px;  
+.address { 
     margin-left: auto; 
+    font-style: normal;
 }
 
 .list {
-    display: flex;
     gap: 40px;
+    display: flex;
 }
 
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    font-weight: 400;
+
 }
 
 .contact-link:hover,
@@ -113,12 +119,6 @@ header {
 /* Hero Section */
 .hero {
     background-color: #2E2F42;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
     padding: 188px 0;
 }
 
@@ -183,7 +183,6 @@ header {
 
 .features-item {
     width: calc((100% - 72px) / 4); 
-    text-align: center;
 }
 
 .feature-title {
@@ -225,10 +224,7 @@ header {
 
 .team-list {
     display: flex;
-    justify-content: space-between;
     gap: 24px; 
-    padding-top: 120px;
-    padding-bottom: 120px;
 
 }
 
@@ -236,20 +232,9 @@ header {
 .team-item {
     flex-basis: calc((100% - 3 * 24px) / 4); 
     background-color: #ffffff;
-    padding: 20px;
     border-radius: 4px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
-
-
-.team-item:first-child {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-
 
 .team-item:last-child {
     margin-right: 0;
@@ -314,13 +299,11 @@ header {
     font-size: 32px;
     font-weight: bold;
     color: #333;
+}
+
+.projects {
     padding-top: 120px;
     padding-bottom: 120px;
-
-}
-.projects.section {
-    padding-top: 120px !important;
-    padding-bottom: 120px !important;
 }
 
 .projects-list {
