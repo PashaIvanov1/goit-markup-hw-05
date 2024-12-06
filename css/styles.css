@@ -39,6 +39,11 @@ h1, h2, h3, p, ul {
     display: flex;
 }
 
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
 /* Section styling */
 .hero {
     background-color: #2E2F42;
