@@ -205,14 +205,6 @@ header {
     width: calc((100% - 72px) / 4); 
     }
 
-/* Hover and Focus States */
-.feature-title:hover,
-.feature-title:focus,
-.feature-description:hover,
-.feature-description:focus {
-    background-color: #404BBF;
-    color: #ffffff;
-}
 
 /* Team Section */
 .team {
@@ -235,8 +227,7 @@ header {
 
 }
 
-
-.team-item {
+.team-item{
     flex-basis: calc((100% - 3 * 24px) / 4); 
     background-color: #ffffff;
     border-radius: 4px; 
