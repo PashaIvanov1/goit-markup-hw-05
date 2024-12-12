@@ -86,6 +86,10 @@ header {
     gap: 40px;
 }
 
+.nav-list li:first-child .nav-link {
+    color: #404bbf;
+}
+
 .nav-link {
     font-size: 16px;
     line-height: 1.5;
