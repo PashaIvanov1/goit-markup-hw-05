@@ -148,8 +148,14 @@ header {
 
 /* Hero Section */
 .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #2E2F42;
     padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -169,13 +175,14 @@ header {
     color: #ffffff;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px; 
+    border-radius: 4px;
     cursor: pointer;
     min-width: 169px;
     height: 56px;
     margin-top: 20px;
     display: block;
     margin: 20px auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
