@@ -243,6 +243,12 @@ header {
 
 
 /* Team Section */
+
+.team-item:first-child {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
