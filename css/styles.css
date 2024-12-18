@@ -561,8 +561,6 @@ header {
     gap: 24px;
   }
   
-  .subscribe-label {}
-  
   .subscribe-input {
     width: 264px;
     height: 40px;
@@ -607,4 +605,3 @@ header {
   .subscribe-icon {
     margin-left: 16px;
   }
-  
