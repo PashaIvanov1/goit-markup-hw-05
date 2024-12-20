@@ -739,7 +739,16 @@ header {
 }
 
 .terms {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .terms input {
+    margin-right: 8px;
+  }
+  
+  .privacy-policy-link {
+    color: #4d5ae5;
+    text-decoration: none;
   }
   
   .visually-hidden {
