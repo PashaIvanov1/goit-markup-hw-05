@@ -822,13 +822,3 @@ header {
   .btn-primary:hover {
     background-color: #374abd;
 }
-
-.form-label-name,
-.form-label-phone,
-.form-label-email,
-.form-label-comment {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
