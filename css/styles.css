@@ -673,7 +673,7 @@ header {
   }
   
   .form-group {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
     flex-direction: column;
     align-items: center;
   }
@@ -696,6 +696,7 @@ header {
   
   .input-container {
     position: relative;
+    margin-bottom: 16px;
   }
   
   .form-input {
@@ -820,4 +821,8 @@ header {
 
   .btn-primary:hover {
     background-color: #374abd;
+}
+
+.some-class {
+  margin-bottom: 8px;
 }
