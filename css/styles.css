@@ -823,10 +823,28 @@ header {
     background-color: #374abd;
 }
 
-.form-group.terms {
-  margin-bottom: 8px; 
+.form-label-name,
+.form-label-phone,
+.form-label-email,
+.form-label-comment {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
-.input-container {
+.form-group-1 {
+  margin-bottom: 8px;
+}
+
+.form-group-2 {
   margin-bottom: 16px;
+}
+
+.form-group-3 {
+  margin-bottom: 24px;
+}
+
+.form-group-4 {
+  margin-bottom: 32px;
 }
